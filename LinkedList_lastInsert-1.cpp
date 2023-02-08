@@ -1,3 +1,6 @@
+//linked list insertion/lastInsertion 
+//apna college
+
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
