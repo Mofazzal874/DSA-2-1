@@ -1,4 +1,4 @@
-# DSA-2-1-lab-codes
+# DSA-2-1
 CSE 2105 : Data Structures and Algorithms
 
 CSE 2106 : DSA Lab
