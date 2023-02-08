@@ -1,4 +1,5 @@
-//linked list insertion/lastInsertion 
+//linked list insertion/lastInsertion
+//this Implementation take O(n) 
 //apna college
 
 #include<bits/stdc++.h>
