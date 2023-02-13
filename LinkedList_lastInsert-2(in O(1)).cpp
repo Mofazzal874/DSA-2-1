@@ -28,16 +28,17 @@ void lastInsert( node* &head , node* &temp , int data){
         return ; 
     }
     else {
-        temp->link = n; 
-        temp = n ; 
+        temp->link = n;//storing the address of the present node in the (temp link) section of the previous node ;
+        temp = n ; //changing the temp to the new pointer or //incrementing the temp pointer to the next 
     }
 }
 
 void display(node *head){
     node* tem = head; 
-    while( tem != NULL){
-        cout<<tem->info<<" " ;
-        tem = tem->link ; 
+    while( tem != NULL){     //eikhane tem->link likhle kintu ekta element kom print hobe .last er new node tate link = NULL thakbe ..so oita print porjonto zawar agei
+                                //loop stop hobe 
+        cout<<tem->info<<" " ;//print kore nilam erpor,
+        tem = tem->link ; //porer tate chole gelam 
     }
     cout<<"\n" ; 
 }
